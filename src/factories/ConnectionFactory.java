@@ -7,7 +7,7 @@ public class ConnectionFactory {
 
     //Metodo para retornar conexao com o banco de dados
     public static Connection getConnection() throws Exception{
-        var host = "jdbc:postgresql://localhost:5433/bdprodutos";
+        var host = "jdbc:postgresql://localhost:5432/bdprodutos";
         var user = "postgres";
         var pass = "coti";
 
